@@ -271,13 +271,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - AUTOSAR consortium for specifications
-- STMicroelectronics for STM32 hardware support
+- Texas Instruments for TM4C123 hardware support
 - Open-source community for tools and libraries
 
 ## 📚 References
 
 - [AUTOSAR Specification](https://www.autosar.org/standards/)
-- [STM32 Reference Manual](https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+- [TM4C123GH6PM Datasheet](https://www.ti.com/lit/ds/symlink/tm4c123gh6pm.pdf)
+- [Tiva C Series User Guide](https://www.ti.com/lit/ug/spmu296/spmu296.pdf)
 - [CAN Bus Protocol](https://en.wikipedia.org/wiki/CAN_bus)
 
 ## 📞 Support
