@@ -1,12 +1,12 @@
-# AUTOSAR CAN Communication Stack for STM32
+# AUTOSAR CAN Communication Stack for TM4C123
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![AUTOSAR](https://img.shields.io/badge/AUTOSAR-4.x-blue.svg)](https://www.autosar.org/)
-[![Platform](https://img.shields.io/badge/Platform-STM32-green.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
+[![Platform](https://img.shields.io/badge/Platform-TM4C123-green.svg)](https://www.ti.com/product/TM4C123GH6PM)
 
 ## 📋 Overview
 
-This project implements an AUTOSAR-compliant CAN communication stack for STM32 microcontrollers. It provides a layered architecture following AUTOSAR standards, enabling reliable and standardized CAN communication in automotive embedded systems.
+This project implements an AUTOSAR-compliant CAN communication stack for Texas Instruments TM4C123 (Tiva C Series) microcontrollers. It provides a layered architecture following AUTOSAR standards, enabling reliable and standardized CAN communication in automotive embedded systems.
 
 ## 🏗️ Architecture
 
@@ -104,8 +104,8 @@ drivers/
 
 ### Hardware Requirements
 
-- STM32 microcontroller with CAN controller (e.g., STM32F407VG)
-- CAN transceiver (e.g., TJA1050, MCP2551)
+- TM4C123GH6PM microcontroller (Tiva C Series LaunchPad)
+- CAN transceiver (e.g., TJA1050, MCP2551, SN65HVD230)
 - CAN bus termination resistors (120Ω)
 
 ### Building the Project
