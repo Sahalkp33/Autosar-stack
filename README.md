@@ -22,7 +22,7 @@ The project follows the AUTOSAR layered architecture:
 ├─────────────────────────────────────┤
 │     CAN Driver (MCAL)               │
 ├─────────────────────────────────────┤
-│     Hardware (STM32 CAN Controller) │
+│   Hardware (TM4C123 CAN Controller) │
 └─────────────────────────────────────┘
 ```
 
@@ -31,7 +31,7 @@ The project follows the AUTOSAR layered architecture:
 * **COM Layer**: Handles signal-based communication and data management
 * **PduR Layer**: Routes Protocol Data Units between different communication modules
 * **CanIf Layer**: Provides a uniform interface to CAN driver services
-* **MCAL Layer**: Hardware abstraction layer for STM32 CAN controller
+* **MCAL Layer**: Hardware abstraction layer for TM4C123 CAN controller
 
 ## 📁 Project Structure
 
@@ -41,7 +41,6 @@ drivers/
 ├── mcal/                       # Microcontroller Abstraction Layer
 │   ├── can.c                   # CAN driver implementation
 │   ├── can.h                   # CAN driver header
-│   ├── can\_stm32.c            # STM32-specific CAN implementation
 │   ├── Can\_Cfg.h              # CAN configuration
 │   ├── Can\_GeneralTypes.h     # CAN type definitions
 │   ├── Can\_IRQ.c              # CAN interrupt handlers
